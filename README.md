@@ -1,6 +1,6 @@
 # THE FROG
 
-### Pure Vanila Javascript Game
+### Pure Vanilla Javascript Game
 
 #### This game is made by me in one week
 
@@ -27,11 +27,10 @@ I had to use these resources to find out how to build this game:
 - frog(main character)
 https://elihaun.itch.io/frog-platformer-tileset
 
-- Paralax background
+- Parallax background
 https://styloo.itch.io/river-parallax-background
 
-
-library(used for button in main meny)
+- library(used for button in main menu)
 https://ronenness.github.io/RPGUI/
 
 
