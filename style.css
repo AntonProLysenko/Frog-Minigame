@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* press-start-2p-regular - latin */
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/Users/anton/Desktop/software_classwork/SELF PRACTICE /Project training game dev/frog's_adventure_ workpices/final/fonts/press-start-2p-v14-latin-regular.eot"); /* IE9 Compat Modes */
+    src: local(''),
+         url('/fonts/press-start-2p-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/press-start-2p-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/press-start-2p-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/press-start-2p-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/press-start-2p-v14-latin-regular.woff2') format('svg'); /* Legacy iOS */
+  }
+body{
+    background-color: rgb(109 170 121);
+}
+
+#canvas1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Wallpoet', cursive;
+
+
+}
+#start-screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#frog-start{
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    margin-top: 70px;
+}
+
+#container>p{
+    font-family: 'Press Start 2P';
+    color: rgba(214, 213, 213, 0.991);
+}
+ 
+button > p{
+    font-family: 'Press Start 2P';
+    color: rgba(214, 213, 213, 0.991);
+    margin-top: 15px;
+}
+/* #start:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+} */
+
+
+
+
+#player, #layer0,#layer1,#layer2,#layer3,#layer4,#layer5,#layer6,#layer7,#enemy_fly,#enemy_plant,#enemy_bat,#enemy_bird,#enemy_worm,#enemy_snake, #blood, #lives,#canvas1{
+    display: none;
+
+}
