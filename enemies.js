@@ -54,7 +54,7 @@ export class BatEnemy extends Enemy{
         this.width = 32//size of the single frame on the sprite sheet
         this.height = 32
         this.x =this.game.width//starting position for the enemy
-        this.y = Math.random()*(this.game.height/2)
+        this.y = Math.random()*(this.game.height-this.game.height/2)
         this.speedX = Math.random()*6// horizontal speed 
         this.speedY=0
         this.maxFrame = 5
@@ -81,11 +81,11 @@ export class BirdEnemy extends Enemy{
     constructor(game){
         super()
         this.game = game
-        this.width = 48//size of the single frame on the sprite sheet
+        this.width = 48
         this.height = 48
-        this.x =this.game.width//starting position for the enemy
-        this.y = Math.random()*(this.game.height/2)
-        this.speedX = Math.random()*4//speed of thefly horizontaly
+        this.x =this.game.width
+        this.y = Math.random()*(this.game.height - this.game.height/2)
+        this.speedX = Math.random()*4
         this.speedY=0
         this.maxFrame = 3
         this.image = document.getElementById('enemy_bird')

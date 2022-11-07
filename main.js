@@ -84,13 +84,6 @@ window.addEventListener('load',gameCreation)
                 }
             })
 
-
-            
-
-
-
-
-
         }
         draw(context){
             this.background.draw(context)
@@ -126,12 +119,7 @@ window.addEventListener('load',gameCreation)
             this.lives = 3
             this.enemies=[]
             this.gameOver=false
-
-            animate(0)
-
-            
-            
-            
+            animate(0) 
         }
     }
 
@@ -153,9 +141,6 @@ window.addEventListener('load',gameCreation)
         game.update(deltaTime)
         game.draw(ctx)
 
-      
-        
-    
         if(!game.gameOver){
             requestAnimationFrame(animate)//generates timeStamp by default but we still need to call it 
         }
@@ -167,9 +152,6 @@ window.addEventListener('load',gameCreation)
         console.log(game)
         animate(0)
     }
-
-  
-    
 }
 
 

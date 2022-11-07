@@ -33,15 +33,6 @@ export class InputHandler{
 
         })
     }
-    // restartGame(){
-    //     this.game.player.restart()
-    //     this.game.score = 0
-    //     this.game.lives = 3
-    //     this.game.enemies=[]
-    //     this.game.gameOver=false
-    //    animate(0)
-    // }
-
     
 }
 
