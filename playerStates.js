@@ -138,12 +138,12 @@ export class Hit extends State{
 
     enter(){
         this.player.frameX = 0
-        this.player.maxFrame = 6//here and in if statement need frames of our hit animation
-        this.player.frameY = 4
+        this.player.maxFrame = 3
+        this.player.frameY = 10
 
     }
     handleInput(input){
-        if (this.player.frameX >= 5 && this.player.onGround()){
+        if (this.player.frameX >= 3 && this.player.onGround()){
             this.player.setState(states.RUNNING, 1)
         }else if ( this.player.frameX >= 5 && !this.player.onGround()){
             this.player.setState(states.FALLING, 1)

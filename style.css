@@ -80,7 +80,7 @@ button > p{
 
 
 
-#player, #layer0,#layer1,#layer2,#layer3,#layer4,#layer5,#layer6,#layer7,#enemy_fly,#enemy_plant,#enemy_bat,#enemy_bird,#enemy_worm,#enemy_snake, #blood, #lives,#canvas1{
+#player,#dizzy, #layer0,#layer1,#layer2,#layer3,#layer4,#layer5,#layer6,#layer7,#enemy_fly,#enemy_plant,#enemy_bat,#enemy_bird,#enemy_worm,#enemy_snake, #blood, #lives,#canvas1{
     display: none;
 
 }

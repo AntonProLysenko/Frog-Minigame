@@ -55,8 +55,7 @@ window.addEventListener('load',gameCreation)
             this.player.update(this.input.keys, deltaTime );
             
             this.background.update()
-            this.mainThemeSound.playbackRate = 1.0
-             this.mainThemeSound.play()
+            this.mainThemeSound.play()
 
             //handle enemies
             if(this.enemyTimer>this.enemyInterval){
@@ -114,12 +113,14 @@ window.addEventListener('load',gameCreation)
         }
         
         restartGame(){
+          
             this.player.restart()
             this.score = 0
             this.lives = 3
             this.enemies=[]
             this.gameOver=false
             animate(0) 
+
         }
     }
 
