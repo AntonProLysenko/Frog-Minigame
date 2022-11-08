@@ -5,6 +5,7 @@
 #### This game is made by me in one week
 
 ##### Enjoy Playing It! 
+https://boldpro.github.io/Frog-Minigame/
 ##### Thank you!
 
 
@@ -22,7 +23,7 @@ I had to use these resources to find out how to build this game:
 
 
 
-#####Big thank you for providing assets and library to:
+Big thank you for providing assets and library to:
 
 - frog(main character)
 https://elihaun.itch.io/frog-platformer-tileset
