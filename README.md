@@ -5,7 +5,7 @@
 #### This game is made by me in one week
 
 ##### Enjoy Playing It! 
-https://boldpro.github.io/Frog-Minigame/
+https://antonprolysenko.github.io/Frog-Minigame/
 ##### Thank you!
 
 
