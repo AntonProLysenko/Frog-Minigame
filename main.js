@@ -30,7 +30,7 @@ window.addEventListener('load',gameCreation)
             this.maxSpeed = 5
             this.speedIncrease = 1 
             this.score = 0
-            this.lives = 3
+            this.lives = 1
 
             this.background = new Background(this)
             this.player = new Player(this)

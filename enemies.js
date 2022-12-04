@@ -37,14 +37,10 @@ class Enemy{
             context.strokeRect(this.x,this.y,this.sizeMagnifier*this.width,this.sizeMagnifier*this.height)
         }
          context.drawImage(this.image,this.frameX*this.width, this.frameY*this.height, this.width, this.height, this.x, this.y, this.sizeMagnifier*this.width, this.sizeMagnifier*this.height)
-        // this.lvlUp()
+
     }
     
-    // lvlUp(){
-    //     if (this.game.score>=1&& this.x < this.game.width){
-    //         this.speedX++
-    //     }
-   // }
+   
 }
 
 export class BatEnemy extends Enemy{
