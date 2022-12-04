@@ -1,4 +1,4 @@
-import{Sitting, Running, Jumping, Falling, Attack, Hit }from './playerStates.js'
+import{ Sitting, Running, Jumping, Falling, Attack, Hit }from './playerStates.js'
 import { CollisionAnimation } from './collisionAnimation.js'
 export class Player{
     constructor(game){
@@ -34,6 +34,7 @@ export class Player{
     update(input, deltaTime){
         this.checkCollisions()
         this.currentState.handleInput(input);
+        
         //horizontal movement
         this.x+= this.speed
        if (input.includes('ArrowRight')){

@@ -149,8 +149,6 @@ window.addEventListener('load',gameCreation)
     function loadGame(){
         canvas.style.display = "block"
         startScreen.style.display = 'none';
-        
-        console.log(game)
         animate(0)
     }
 }
