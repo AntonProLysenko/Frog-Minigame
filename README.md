@@ -2,7 +2,7 @@
 
 ### Pure Vanilla Javascript Game
 
-#### This game is made by me in one week
+
 
 ##### Enjoy Playing It! 
 https://antonprolysenko.github.io/Frog-Minigame/
